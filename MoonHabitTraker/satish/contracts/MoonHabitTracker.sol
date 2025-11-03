@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 contract MoodHabitTracker {
     
     struct DailyEntry {
-        uint8 mood; // 1-5 scale (1=very bad, 5=very good)
+        uint8 mood; // 1-5 scale (1=very bad, 5=very good) 
         bool habitCompleted;
         uint256 timestamp;
     }
